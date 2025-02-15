@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Classification Result</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Classification Result</h1>
+    <img src="{{ url_for('static', filename=image) }}" alt="Uploaded Image">
+    <p>Predicted Class: {{ predicted_class }}</p>
+    <p>Confidence: {{ confidence }}</p>
+    {% if description %}
+    <p>Description: {{ description }}</p>
+    {% endif %}
+    <br>
+    <form method="GET" action="/">
+        <input type="submit" value="Choose Another Image">
+    </form>
+</body>
+</html>
