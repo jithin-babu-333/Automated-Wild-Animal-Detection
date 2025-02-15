@@ -14,11 +14,11 @@ This project implements a **ResNet-based deep learning model** to classify image
 
 ## 📂 Dataset
 The dataset consists of images of five animal species:
-- 🦬 Buffalo
-- 🐘 Elephant
-- 🐵 Monkey
-- 🐅 Tiger
-- 🐗 Wild Boar
+-  Buffalo
+-  Elephant
+-  Monkey
+-  Tiger
+-  Wild Boar
 
 ### 📊 Data Preprocessing
 - **Image Augmentation**: Augment images to ensure each class has 300 samples.
@@ -73,7 +73,7 @@ The model is built using **ResNet-50**, with additional CNN layers:
 - Deploy as a web-based classification tool
 
 ## 👨‍💻 Author
-[Jithin Babu](https://github.com/jithin-babu-gif)  
+[Jithin Babu](https://github.com/jithin-babu-333)  
 [LinkedIn Profile](https://www.linkedin.com/in/jithin-babu-a34287246)
 
 ## 📜 License
