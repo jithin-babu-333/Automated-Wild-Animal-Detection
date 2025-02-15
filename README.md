@@ -1,5 +1,5 @@
 # Automated-Wild-Animal-Detection
-# 🦁 Wildlife Image Classification using ResNet
+# Wildlife Image Classification using ResNet
 
 ## 📌 Overview
 This project implements a **ResNet-based deep learning model** to classify images of wildlife species. The dataset includes images of animals such as buffalo, elephants, monkeys, tigers, and wild boars. The model utilizes **data augmentation, early stopping, and transfer learning with ResNet** to achieve high classification accuracy.
